@@ -14,6 +14,9 @@ function City(name, longitude, latitude, landmarks) {
 Country.prototype.addCity = function(city) {
   this.cities.push(city);
 }
+City.prototype.addNotes = function(notes){
+  this.notes =
+}
 
 City.prototype.fullCity = function() {
   return this.name + " " + this.longitude + " " +  this.latitude + " " +  this.landmarks;
